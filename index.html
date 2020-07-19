@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <ul class="nav navbar navbar-dark bg-dark justify-content-center fixed-top ">
+            <li class="nav-item">
+              <a class="nav-link active" href="#box">Guess The Alphabet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#learn">Learn The Alphabet</a>
+            </li>
+            
+        </ul>
+               
+    </header>
+    <div class="container-fluid" id ="box">
+        <div class="jumbotron text-center">
+            <h1 class="">Let's guess the Alphabet related with each Animal below.</h1>
+            <p class="lead">look at the picture , name the animal , guess the alphabet .</p>
+            <p> If you can't guess , hover over the picture and see the alphabet.</p>
+        </div>
+        <div class="row no-gutters" id="pic">
+            <div class="col-md-3 col-sm-6 col-lg-2" id="AP">
+                <div class="card text-white">
+                    <img class=" card card-img " src="https://images.unsplash.com/photo-1588470045344-4393b295297c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                      
+                     <div class="card card-img-overlay ovl text-center">
+                       <h1>"A"</h1>
+                       <h3>A for Ant</h3>
+                       <p>It is an Ant . </p>
+                    </div>
+                </div>
+             </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="BP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1590787996529-a542c86ca267?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                        <h1>"B"</h1>
+                        <h3>B for Bear</h3>
+                        <p>This is a big fat Bear. </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="CP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1472491235688-bdc81a63246e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                        <h1>"C"</h1>
+                        <h3>C for Cat</h3>
+                        <p>This is a Cute little cat</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="DP">
+                <div class="card text-white img-fluid">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1502673530728-f79b4cab31b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                        <h1>"D"</h1>
+                        <h3>D for Dog</h3>
+                        <p>Dogs are very friendly</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="EP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1551356277-dbb545a2d493?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"E"</h1>
+                       <h3>E for Elephant</h3>
+                       <p>Elephants are so huge</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="FP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1497671954146-59a89ff626ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center ">
+                        <h1>"F"</h1>
+                        <h3>F for Fish</h3>
+                        <p>This is a gold fish</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="GP">
+                <div class="card text-white">
+                    <img class="card-img" src="https://images.unsplash.com/photo-1467302091917-c7ac18f83832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"G"</h1>
+                        <h3>G for Giraffe</h3>
+                        <p>Girrafes have long neck</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="HP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"H"</h1>
+                       <h3>H for horse</h3>
+                       <p>horses can sleep standing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="IP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1586942842797-436337439959?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"I"</h1>
+                       <h3>I for Impala</h3>
+                       <p>Impala can jump high</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="JP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1569277051793-783398dc36ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"J"</h1>
+                       <h3>J for Jaguar</h3>
+                       <p>jaguars are excellent swimmer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="KP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1556811431-ec33c663aa89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"K"</h1>
+                       <h3>K for Koala</h3>
+                       <p>Koalas sleep on tree</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="LP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1523311964370-42ac336c878b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"L"</h1>
+                       <h3>L for Lamb</h3>
+                       <p>We get wool from lamb</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="MP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"M"</h1>
+                       <h3>M for mouse</h3>
+                       <p>Mouse are small in size</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="NP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1560867668-f7e584e1cf24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"N"</h1>
+                       <h3>N for Nyala</h3>
+                       <p>Nyala have yellow legs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="OP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1562530372-9cc418d62e34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"O"</h1>
+                       <h3>O for Orangutans</h3>
+                       <p>Orangutans are very intelligent.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="PP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"P"</h1>
+                       <h3>P for Panda</h3>
+                       <p>Pandas are very funny</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="QP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1577021307655-7f9785f40e2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"Q"</h1>
+                       <h3>Q for Quokka</h3>
+                       <p>Quakka is so cute</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="RP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1518796745738-41048802f99a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"R"</h1>
+                       <h3>R for Rabbit</h3>
+                       <p>Rabbit eats carrot.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="SP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/flagged/photo-1554991228-fe121b32faa2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"S"</h1>
+                       <h3>S for Spider</h3>
+                       <p>Spider make web.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="TP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1531413260055-c474aa3ee74d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"T"</h1>
+                       <h3>T for Tortoise</h3>
+                       <p>Tortoise live more than 100 years</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2 " id="UP">
+                <div class="card text-white mb-10">
+                    <img class="card-img img-fluid" src="https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/g_south,l_text:style_gothic2:%C2%A9%20Jess%20Kraft,o_20,y_10/g_center,l_watermark4,o_25,y_50/v1457259534/ipjoaksf0hjzko9uanrx.jpg" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center mb-10">
+                       <h1>"U"</h1>
+                       <h3>U for Uakari</h3>
+                       <p>Uakari is a type of monkey</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="VP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1544274395-dc3920a36111?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"V"</h1>
+                       <h3>V for Vulture</h3>
+                       <p>Vulture is a bird</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="WP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1586705689603-e43e934231f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"W"</h1>
+                       <h3>W for Wasp</h3>
+                       <p>Wasps can fly</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="XP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/103726981/" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"X"</h1>
+                       <h3>X for Xenops</h3>
+                       <p>Xenops is a bird</p>
+                    </div>
+                </div>
+            </div>
+        
+
+        </div>
+        <div class="row no-gutters justify-content-center" id="pic1 text-center">
+            <div class="col-md-3 col-sm-6 col-lg-2 " id="YP text-center">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1535435734705-4f0f32e27c83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"Y"</h1>
+                       <h3>Y for Yak</h3>
+                       <p>Yaks are found in cold area</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="ZP">
+                <div class="card text-white">
+                    <img class="card-img img-fluid" src="https://images.unsplash.com/photo-1526095179574-86e545346ae6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80" width = 100% alt="">
+                      
+                     <div class="card-img-overlay ovl text-center">
+                       <h1>"Z"</h1>
+                       <h3>Z for Zebra</h3>
+                       <p>Zebra stripes are so good</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+        
+            
+    </div>
+<!--This Part is learning Alphabet with buttons   -->
+    <div class="container-fluid" id ="learn">
+        <div class="jumbotron text-center">
+            <h1 class="">Let's learn the alphabets from A-Z</h1>
+            <p class="lead">click on the button below for each alphabet and see the related Animal.</p>
+            
+        </div>
+        <div class="row" id="pic">
+            <div class="col-md-3 col-sm-6 col-lg-2" id="AB">
+               <button type="button" class="btn btn-primary btn-lg " data-toggle="collapse" data-target="#A" role="button" style="width: 100%">
+                     "A"
+               </button>
+                    
+               <div class="collapse" id="A">
+                       <div class="card card-img">
+                          <img src="https://images.unsplash.com/photo-1588470045344-4393b295297c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                          <span class="lead text-center">Ant</span>
+                       </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-2" id="BB">
+                <button type="button" class="btn btn-warning btn-lg" data-toggle="collapse" data-target="#B" role="button" style="width:100%;">
+                      "B"
+                </button>
+                     
+                <div class="collapse" id="B">
+                        <div class="card card-img">
+                           <img src="https://images.unsplash.com/photo-1538630834610-87751cd747f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Bat</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="CB">
+                <button type="button" class="btn btn-success btn-lg" data-toggle="collapse" data-target="#C" role="button" style="width:100%;">
+                      "C"
+                </button>
+                     
+                <div class="collapse" id="C">
+                        <div class="card card-img">
+                           <img src="https://images.unsplash.com/photo-1472491235688-bdc81a63246e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                           <span class="lead text-center">Cat</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="DB">
+                <button type="button" class="btn btn-danger btn-lg" data-toggle="collapse" data-target="#D" role="button" style="width: 100%;">
+                      "D"
+                </button>
+                     
+                <div class="collapse" id="D">
+                        <div class="card card-img">
+                           <img src="https://images.unsplash.com/photo-1502673530728-f79b4cab31b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Dog</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="EB">
+                <button type="button" class="btn btn-secondary btn-lg" data-toggle="collapse" data-target="#E" role="button" style="width:100%">
+                      "E"
+                </button>
+                     
+                <div class="collapse" id="E">
+                        <div class="card card-img">
+                           <img src="https://images.unsplash.com/photo-1551356277-dbb545a2d493?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Elephant</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="FB">
+                <button type="button" class="btn btn-info btn-lg" data-toggle="collapse" data-target="#F" role="button" style="width: 100%;">
+                      "F"
+                </button>
+                     
+                <div class="collapse" id="F">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1497671954146-59a89ff626ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = 100% alt="">
+                           <span class="lead text-center">Fish</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="GB">
+                <button type="button" class="btn btn-info btn-lg" data-toggle="collapse" data-target="#G" role="button" style="width:100%">
+                      "G"
+                </button>
+                     
+                <div class="collapse" id="G">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1467302091917-c7ac18f83832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Giraffe</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="HB">
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="collapse" data-target="#H" role="button" style="width: 100%;">
+                      "H"
+                </button>
+                     
+                <div class="collapse" id="H">
+                        <div class="card card-img">
+                           <img src="https://images.unsplash.com/photo-1553284965-5dd8352ff1bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Horse</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="IB">
+                <button type="button" class="btn btn-danger btn-lg" data-toggle="collapse" data-target="#I" role="button" style="width:100%;">
+                      "I"
+                </button>
+                     
+                <div class="collapse" id="I">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1586942842797-436337439959?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Impala</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="JB">
+                <button type="button" class="btn btn-success btn-lg" data-toggle="collapse" data-target="#J" role="button" style="width: 100%;">
+                      "J"
+                </button>
+                     
+                <div class="collapse" id="J">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1569277051793-783398dc36ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Jaguar</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="KB">
+                <button type="button" class="btn btn-warning btn-lg" data-toggle="collapse" data-target="#K" role="button" style="width: 100%;">
+                      "K"
+                </button>
+                     
+                <div class="collapse" id="K">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1556811431-ec33c663aa89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Koala</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="LB">
+                <button type="button" class="btn btn-secondary btn-lg" data-toggle="collapse" data-target="#L" role="button" style="width: 100%;">
+                      "L"
+                </button>
+                     
+                <div class="collapse" id="L">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1523311964370-42ac336c878b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Lamb</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="MB">
+                <button type="button" class="btn btn-danger btn-lg" data-toggle="collapse" data-target="#M" role="button" style="width: 100%;">
+                      "M"
+                </button>
+                     
+                <div class="collapse" id="M">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Mouse</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="NB">
+                <button type="button" class="btn btn-warning btn-lg" data-toggle="collapse" data-target="#N" role="button" style="width: 100%;">
+                      "N"
+                </button>
+                     
+                <div class="collapse" id="N">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1560867668-f7e584e1cf24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Nyala</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="OB">
+                <button type="button" class="btn btn-secondary btn-lg" data-toggle="collapse" data-target="#O" role="button" style="width: 100%;">
+                      "O"
+                </button>
+                     
+                <div class="collapse" id="O">
+                        <div class="card card-img">
+                           <img src="https://images.unsplash.com/photo-1562530372-0bbd926ad3d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Orangutan</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="PB">
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="collapse" data-target="#P" role="button" style="width: 100%;">
+                      "P"
+                </button>
+                     
+                <div class="collapse" id="P">
+                        <div class="card card-img">
+                           <img src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Panda</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="QB">
+                <button type="button" class="btn btn-info btn-lg" data-toggle="collapse" data-target="#Q" role="button" style="width: 100%;">
+                      "Q"
+                </button>
+                     
+                <div class="collapse" id="Q">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1577021307655-7f9785f40e2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Quokka</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="RB">
+                <button type="button" class="btn btn-success btn-lg" data-toggle="collapse" data-target="#R" role="button" style="width: 100%;">
+                      "R"
+                </button>
+                     
+                <div class="collapse" id="R">
+                        <div class="card card-img">
+                            <img class="img-fluid"src="https://images.unsplash.com/photo-1518796745738-41048802f99a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                            <span class="lead text-center">Rabbit</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="SB">
+                <button type="button" class="btn btn-warning btn-lg" data-toggle="collapse" data-target="#S" role="button" style="width: 100%;">
+                      "S"
+                </button>
+                     
+                <div class="collapse" id="S">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/flagged/photo-1554991228-fe121b32faa2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Spider</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="TB">
+                <button type="button" class="btn btn-secondary btn-lg" data-toggle="collapse" data-target="#T" role="button" style="width: 100%;">
+                      "T"
+                </button>
+                     
+                <div class="collapse" id="T">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1531413260055-c474aa3ee74d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Tortoise</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="UB">
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="collapse" data-target="#U" role="button" style="width: 100%;">
+                      "U"
+                </button>
+                     
+                <div class="collapse" id="U">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/g_south,l_text:style_gothic2:%C2%A9%20Jess%20Kraft,o_20,y_10/g_center,l_watermark4,o_25,y_50/v1457259534/ipjoaksf0hjzko9uanrx.jpg" width = 100% alt="">
+                           <span class="lead text-center">Uakari</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="VB">
+                <button type="button" class="btn btn-success btn-lg" data-toggle="collapse" data-target="#V" role="button" style="width: 100%;">
+                      "V"
+                </button>
+                     
+                <div class="collapse" id="V">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1544274395-dc3920a36111?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Vulture</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="WB">
+                <button type="button" class="btn btn-danger btn-lg" data-toggle="collapse" data-target="#W" role="button" style="width: 100%;">
+                      "W"
+                </button>
+                     
+                <div class="collapse" id="W">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1586705689603-e43e934231f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Wasp</span>
+                        </div>
+                </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-2" id="XB">
+                <button type="button" class="btn btn-secondary btn-lg" data-toggle="collapse" data-target="#X" role="button" style="width: 100%;"> 
+                      "X"
+                </button>
+                     
+                <div class="collapse" id="X">
+                        <div class="card card-img">
+                           <img  class="img-fluid" src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/103726981/" width = 100% alt="">
+                           <span class="lead text-center">Xenops</span>
+                        </div>
+                </div>
+             </div>
+        </div>
+        <div class="row justify-content-center" id="pic1" >
+            <div class="col-md-3 col-sm-6 col-lg-2" id="YB">
+                <button type="button" class="btn btn-danger btn-lg" data-toggle="collapse" data-target="#Y" role="button" style="width: 100%;">
+                      "Y"
+                </button>
+                     
+                <div class="collapse" id="Y">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1535435734705-4f0f32e27c83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Yak</span>
+                        </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-lg-2" id="ZB">
+                <button type="button" class="btn btn-warning btn-lg " data-toggle="collapse" data-target="#Z" role="button" style="width: 100%;">
+                      "Z"
+                </button>
+                     
+                <div class="collapse" id="Z">
+                        <div class="card card-img">
+                           <img class="img-fluid" src="https://images.unsplash.com/photo-1526095179574-86e545346ae6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width = 100% alt="">
+                           <span class="lead text-center">Zebra</span>
+                        </div>
+                </div>
+            </div>
+        </div>
+             
+         
+    </div>  
+    <footer class="text-center">
+        <p class="lead">
+            Made with &heartsuit; by Ayushi
+        </p>
+        <p>
+            <a href="https://www.instagram.com/ayushikarn186/"><img src="https://businessjournaldaily.com/wp-content/uploads/2019/02/Instagram925.jpg" height="40px" width="80px" alt=""></a>
+           
+       
+       </p>
+
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

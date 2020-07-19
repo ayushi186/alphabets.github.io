@@ -1,0 +1,22 @@
+.ovl{
+    opacity: 0;
+    transition: 1s;
+    object-fit:cover;
+    
+}
+.ovl:hover {
+    opacity: 1;
+    background :rgba(0,0,0,0.5);
+    font-weight: 600;
+    font-size: large;
+    color: salmon;
+
+   
+
+
+}
+
+footer{
+    margin-top: 90px;
+    
+}
